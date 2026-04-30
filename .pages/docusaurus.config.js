@@ -15,8 +15,8 @@ const config = {
   // Set the production URL of your site here
   url: 'https://FriendsOfMDT.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/psd/',
-
+  baseUrl: '/PSD/',
+  staticDirectories: ['static'],
   // GitHub pages deployment config.
   organizationName: 'FriendsOfMDT',
   projectName: 'psd',
@@ -57,7 +57,8 @@ const config = {
         title: 'PowerShell Deployment',
         logo: {
           alt: 'PSD Logo',
-          src: '../Scripts/powershell_dark.png',
+          src: 'img/powershell.png',
+          srcDark: 'img/powershell_dark.png',
         },
         items: [
           {
